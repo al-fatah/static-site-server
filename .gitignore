@@ -1,0 +1,15 @@
+# Ignore private keys and secrets
+*.pem
+*.key
+*.crt
+*.env
+*.secret
+
+# Ignore local tools
+deploy.sh
+.rsyncignore
+
+# OS / editor junk
+.DS_Store
+node_modules/
+dist/
